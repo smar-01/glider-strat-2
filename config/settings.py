@@ -1,5 +1,5 @@
 
-from settings_private import ALCHEMY_API_KEY
+from .settings_private import ALCHEMY_API_KEY
 
 ALCHEMY_URL = f"https://base-mainnet.g.alchemy.com/v2/{ALCHEMY_API_KEY}"
 HEADERS = {"Content-Type": "application/json"}
