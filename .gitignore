@@ -8,13 +8,13 @@ __pycache__/
 venv/
 *.code-workspace
 
-!SAMPLE ACT-WETH_swap_data.xlsx
 
 settings_private.py
 
 # Ignore CSV and Excel files
 *.csv
 *.xlsx
+!SAMPLE ACT-WETH_swap_data.xlsx
 
 # Ignore VS Code workspace files
 *.code-workspace
