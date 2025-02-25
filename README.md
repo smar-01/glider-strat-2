@@ -16,6 +16,11 @@ Sample output
     All tx_hash can be double checked on basescan.org/
     -> https://dexscreener.com/base/0x269bda0512de57cd0be0270686ffb3964c05e19b
 
+How to run
+
+    >cd \glider-strat-2\
+    >python -m data_collection.transaction_screener
+
 This project aims to support backtesting with a data collection system that interacts with a Uniswap V3-style decentralized exchange on an EVM-compatible blockchain. It fetches raw log data for various token pairs, decodes swap information, and outputs organized CSVs for further analysis.
 
 Table of Contents
